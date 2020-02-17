@@ -40,8 +40,8 @@ public class vehicle2A {
 			int speedRight = (int)(colorSample2[0] * 700.0);
 			mLeft.setSpeed(speedLeft);
 			mRight.setSpeed(speedRight);
-			mLeft.forward();
-			mRight.forward();
+			mLeft.backward();
+			mRight.backward();
 			
 		}
 		
